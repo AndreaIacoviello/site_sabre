@@ -111,37 +111,34 @@
 }
 .slider-item#item-2 img {
   max-width: 60%;
-  margin-top: 55%;
+  margin-top: 35%;
   margin-left: 15%;
 }
 .slider-item#item-3 img {
   max-width: 25%;
-  margin-top: 45%;
-  margin-left: 70%;
+  margin-top: 40%;
+  margin-left: 75%;
 }
-.slider-item#item-4 {
-  left: 500px;
-  width: 350px;
-  height: 200px;
-  background: red;
-  top: 65%;
-  left: 40%;
+.slider-item#item-4 img {
+  max-width: 60%;
+  margin-top: 60%;
+  margin-left: 95%;
 }
-.slider-item#item-5 {
-  left: 500px;
-  width: 150px;
-  height: 150px;
-  background: red;
-  top: 70%;
-  left: 56%;
+.slider-item#item-5 img {
+  max-width: 30%;
+  margin-top: 60%;
+  margin-left: 140%;
 }
-.slider-item#item-6 {
-  left: 500px;
-  width: 350px;
-  height: 350px;
-  background: red;
-  top: 50%;
-  left: 70%;
+.slider-item#item-6 img {
+  max-width: 50%;
+  margin-top: 30%;
+  margin-left: 165%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
 .grotte img {
