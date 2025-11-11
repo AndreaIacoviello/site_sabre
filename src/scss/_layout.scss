@@ -31,13 +31,13 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: repeating-linear-gradient(
-    45deg,
-    #606dbc33,
-    #606dbc33 10px,
-    #606dbc00 10px,
-    #606dbc00 20px
-  );
+  // background: repeating-linear-gradient(
+  //   45deg,
+  //   #606dbc33,
+  //   #606dbc33 10px,
+  //   #606dbc00 10px,
+  //   #606dbc00 20px
+  // );
 }
 
 .object-wrapper {
@@ -66,6 +66,7 @@
   width: 150%;
   position: relative;
   display: flex;
+  background-color: #ea989d;
 }
 
 .slider-container .montagne-paysage img {
