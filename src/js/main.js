@@ -9,7 +9,7 @@ gsap
   // Il devient visible et est déplacé horizontalement de 25%
   .to("#oiseau-1", {
     opacity: 1,
-    x: "150%",
+    x: "165%",
     scrollTrigger: {
       trigger: "#oiseau-1",
       start: "top bottom",
@@ -40,7 +40,7 @@ gsap.to("#title2", {
 
 gsap.to("#oiseau-2", {
   opacity: 1,
-  x: "180%",
+  x: "135%",
   scrollTrigger: {
     trigger: "#oiseau-2",
     start: "top bottom",
@@ -49,7 +49,7 @@ gsap.to("#oiseau-2", {
 });
 gsap.to("#oiseau-3", {
   opacity: 1,
-  x: "200%",
+  x: "100%",
   scrollTrigger: {
     trigger: "#oiseau-3",
     start: "top bottom",
@@ -58,7 +58,7 @@ gsap.to("#oiseau-3", {
 });
 gsap.to("#oiseau-4", {
   opacity: 1,
-  x: "40%",
+  x: "60%",
   scrollTrigger: {
     trigger: "#oiseau-4",
     start: "top bottom",
