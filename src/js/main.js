@@ -96,7 +96,7 @@ gsap.to(".slider-container", {
     end: "500%",
     scrub: true,
     pin: true,
-    markers: true,
+    // markers: true,
   },
 });
 
