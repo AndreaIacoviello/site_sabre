@@ -61,12 +61,19 @@
   left: 0;
   left: 45%;
   height: 70%;
-  background: rgba(110, 93, 131, 0.8);
+  //   background: rgba(110, 93, 131, 0.8);
 }
 
 #element-1 img {
   width: 9.5rem;
-  height: 8.5rem;
+  height: 9.5rem;
+  margin-bottom: 55%;
+  margin-left: 20%;
+}
+#element-1 p {
+  color: white;
+  margin-right: 15%;
+  margin-bottom: 20%;
 }
 
 #element-2 {
