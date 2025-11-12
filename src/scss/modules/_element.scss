@@ -1,0 +1,51 @@
+#element-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  background: rgba(110, 93, 131, 0.8);
+}
+
+#element-2 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 25%;
+  height: 45%;
+}
+
+#element-3 {
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+  width: 10%;
+  height: 10%;
+  background: rgba(182, 171, 196, 0.8);
+}
+
+#template,
+#path {
+  fill: none;
+}
+
+#template {
+  stroke-width: 5px;
+  stroke: #444;
+}
+
+#oiseau-3 img {
+  max-width: 500%;
+  margin-left: -150%;
+}
+
+#oiseau-1 img {
+  max-width: 100%;
+}
+#oiseau-2 img {
+  max-width: 100%;
+}
+
+#oiseau-4 img {
+  max-width: 100%;
+}
