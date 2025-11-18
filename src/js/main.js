@@ -5,8 +5,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 gsap
-  // Anime l'objet  lorsque son centre arrive en bas du viewport
-  // Il devient visible et est déplacé horizontalement de 25%
+  // Anime l'objet  lorsque son centre arrive en bas
+  // Il devient visible et est déplacé horizontalement
   .to("#oiseau-1", {
     opacity: 1,
     x: "165%",
@@ -17,8 +17,8 @@ gsap
     },
   });
 
-// Anime l'objet  lorsque son centre arrive en bas du viewport
-// Il devient visible et est déplacé horizontalement de -25%
+// Anime l'objet  lorsque son centre arrive en bas
+// Il devient visible et est déplacé horizontalement
 gsap.to("#title", {
   opacity: 1,
   y: "-150%",
@@ -96,7 +96,6 @@ gsap.to(".slider-container", {
     end: "500%",
     scrub: true,
     pin: true,
-    // markers: true,
   },
 });
 
@@ -206,8 +205,6 @@ gsap
     0
   );
 
-// Draw the SVG
-// Based on https://scrollmagic.io/examples/advanced/svg_drawing.html
 function pathPrepare(el) {
   const lineLength = el.getTotalLength();
   el.style.strokeDasharray = lineLength;
@@ -216,7 +213,6 @@ function pathPrepare(el) {
 
 const svgPath = document.querySelector("#template");
 
-// prepare SVG
 pathPrepare(svgPath);
 
 gsap.to(svgPath, {
