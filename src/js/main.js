@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap
   // Anime l'objet  lorsque son centre arrive en bas
-  // Il devient visible et est déplacé horizontalement
+
   .to("#oiseau-1", {
     opacity: 1,
     x: "165%",
@@ -17,8 +17,6 @@ gsap
     },
   });
 
-// Anime l'objet  lorsque son centre arrive en bas
-// Il devient visible et est déplacé horizontalement
 gsap.to("#title", {
   opacity: 1,
   y: "-150%",
